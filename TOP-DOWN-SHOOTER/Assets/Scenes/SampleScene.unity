@@ -157,7 +157,7 @@ GameObject:
   - component: {fileID: 795267467}
   - component: {fileID: 795267466}
   - component: {fileID: 795267465}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -252,7 +252,7 @@ GameObject:
   - component: {fileID: 1089483740}
   - component: {fileID: 1089483739}
   - component: {fileID: 1089483738}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -448,7 +448,7 @@ GameObject:
   - component: {fileID: 1183044430}
   - component: {fileID: 1183044429}
   - component: {fileID: 1183044428}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -548,7 +548,7 @@ GameObject:
   - component: {fileID: 1451196429}
   - component: {fileID: 1451196428}
   - component: {fileID: 1451196427}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -643,7 +643,7 @@ GameObject:
   - component: {fileID: 1630985874}
   - component: {fileID: 1630985873}
   - component: {fileID: 1630985872}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -748,7 +748,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 73600078481961343, guid: 22988f9488c24064d8b559eccbf31e98, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.000002
+      value: 2.3000019
       objectReference: {fileID: 0}
     - target: {fileID: 2665019297494062092, guid: 22988f9488c24064d8b559eccbf31e98, type: 3}
       propertyPath: m_RootOrder
@@ -808,7 +808,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2665019297677127360, guid: 22988f9488c24064d8b559eccbf31e98, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.000002
+      value: 2.3000019
       objectReference: {fileID: 0}
     - target: {fileID: 2665019297677127360, guid: 22988f9488c24064d8b559eccbf31e98, type: 3}
       propertyPath: m_LocalRotation.w
@@ -828,7 +828,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2665019297677127361, guid: 22988f9488c24064d8b559eccbf31e98, type: 3}
       propertyPath: orthographic size
-      value: 7.6
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 7540914543088344883, guid: 22988f9488c24064d8b559eccbf31e98, type: 3}
       propertyPath: m_Follow
@@ -848,6 +848,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: bb2c92f837ece5a47b90e18a89641a8f, type: 2}
+    - target: {fileID: 2409400228949992771, guid: 0b27bf8c44a75304f820832b4fc6e085, type: 3}
+      propertyPath: inputCam
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4745973556248289123, guid: 0b27bf8c44a75304f820832b4fc6e085, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -895,6 +899,10 @@ PrefabInstance:
     - target: {fileID: 4745973556248289127, guid: 0b27bf8c44a75304f820832b4fc6e085, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5863939722495119595, guid: 0b27bf8c44a75304f820832b4fc6e085, type: 3}
+      propertyPath: rayCount
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b27bf8c44a75304f820832b4fc6e085, type: 3}

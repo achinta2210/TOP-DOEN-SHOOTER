@@ -93,8 +93,11 @@ GameObject:
   - component: {fileID: 4745973556248289123}
   - component: {fileID: 4745973556248289126}
   - component: {fileID: 977527073819022992}
+  - component: {fileID: 9220739032537048613}
+  - component: {fileID: 812224198848984201}
   - component: {fileID: 6963133864089288798}
   - component: {fileID: 2409400228949992771}
+  - component: {fileID: 5863939722495119595}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -147,6 +150,55 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 1
+--- !u!23 &9220739032537048613
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4745973556248289127}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 7cf5608d50d503241af3c799fa8360d6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &812224198848984201
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4745973556248289127}
+  m_Mesh: {fileID: 0}
 --- !u!114 &6963133864089288798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,6 +227,26 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 1024
+--- !u!114 &5863939722495119595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4745973556248289127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d60f4bdc15ec7d44a17f6b1a8583e90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewRadious: 10
+  fieldOfView: 30
+  viewDistance: 7
+  rayCount: 10
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 1024
+  cornerDetectionIterations: 5
 --- !u!1 &8717305819142108982
 GameObject:
   m_ObjectHideFlags: 0
