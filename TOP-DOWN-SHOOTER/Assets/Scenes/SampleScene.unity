@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34df76bc73b4fab48b2f107396775888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 0
+  startingHealth: 40
 --- !u!136 &206885024
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5322,7 +5322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34df76bc73b4fab48b2f107396775888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 0
+  startingHealth: 90
 --- !u!136 &1055460816
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5913,7 +5913,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34df76bc73b4fab48b2f107396775888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 0
+  startingHealth: 50
 --- !u!136 &1731876019
 CapsuleCollider:
   m_ObjectHideFlags: 0
