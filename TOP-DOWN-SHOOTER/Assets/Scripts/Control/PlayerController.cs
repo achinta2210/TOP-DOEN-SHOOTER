@@ -81,7 +81,6 @@ namespace TopDownShooter.Control
             
         }
         public void HandleCombat(){
-
             shooter.AutometicShoot(input.FireDown);
         }
         

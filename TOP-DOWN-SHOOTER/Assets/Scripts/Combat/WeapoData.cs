@@ -16,6 +16,7 @@ namespace TopDownShooter.Combat{
         public int startingMagSize = 30;
         public Projectile projectilePrefab = null; 
         public BulletDraw bulletLine = null;
+        public Effect bullHitEffect = null;
         public float projectileSpeed = 100f;
     }
 }
