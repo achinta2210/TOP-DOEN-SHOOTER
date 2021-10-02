@@ -77,27 +77,27 @@ LineRenderer:
   - {x: 0, y: 0, z: 1}
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.1
+    widthMultiplier: 0.07
     widthCurve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.31471848
-        inSlope: 0.7643426
-        outSlope: 0.7643426
+        value: 0.6091368
+        inSlope: 0.6294435
+        outSlope: 0.6294435
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.11395521
       - serializedVersion: 3
-        time: 0.9907684
+        time: 1
         value: 1
-        inSlope: 0.62358004
-        outSlope: 0.62358004
+        inSlope: 0.6294416
+        outSlope: 0.6294416
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.12324255
+        inWeight: 0.14516133
         outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d2d6176496f1b644b9dc058cd0b3a55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingAlpha: 0.3
-  color: {r: 0.990566, g: 0.745825, b: 0.60275006, a: 0}
-  moveSpeed: 30
-  bulletFadeTime: 0.3
+  startingAlpha: 1
+  color: {r: 0.990566, g: 0.9578586, b: 0.9391687, a: 0}
+  moveSpeed: 100
+  bulletFadeTime: 0.25
