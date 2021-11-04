@@ -20,12 +20,10 @@ namespace TopDownShooter.Control
         Vector3 mouseDir;
         Vector3 movementVector;
         PlayerConstrains constrains = new PlayerConstrains();
-        CameraController cameraController;
         Shooter shooter;
         private void Start() {
             rb = GetComponent<Rigidbody>();
             input = GetComponent<InputManager>();
-            cameraController = FindObjectOfType<CameraController>();
             if (animator == null) animator = GetComponent<Animator>();
             shooter = GetComponent<Shooter>();
         }
@@ -56,7 +54,7 @@ namespace TopDownShooter.Control
 
         private void CalculateMovementVector(){
             if (constrains.canMove){
-                movementVector = transform.right * input.AxisInput.x +
+                movementVector = Vector3.right * input.AxisInput.x +
                 transform.forward * input.AxisInput.y;
                 movementVector.y = rb.velocity.y;
             }else{
@@ -67,7 +65,6 @@ namespace TopDownShooter.Control
 
         private void CheckIfCanMove(){
             float distance = Vector3.Distance(transform.position , input.MousePosition);
-            //print(distance);
             constrains.canMove = distance > data.minMouseDistance;
         }
         public void HandleAnimation(){

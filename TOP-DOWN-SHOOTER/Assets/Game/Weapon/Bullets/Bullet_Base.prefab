@@ -77,27 +77,27 @@ LineRenderer:
   - {x: 0, y: 0, z: 1}
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.07
+    widthMultiplier: 0.2
     widthCurve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.6091368
-        inSlope: 0.6294435
-        outSlope: 0.6294435
+        value: 0.65992534
+        inSlope: 0.22620948
+        outSlope: 0.22620948
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
-        outWeight: 0.11395521
+        outWeight: 0.26341462
       - serializedVersion: 3
         time: 1
         value: 1
-        inSlope: 0.6294416
-        outSlope: 0.6294416
+        inSlope: 0.47169802
+        outSlope: 0.47169802
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0.14516133
+        inWeight: 0.25853664
         outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -152,6 +152,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingAlpha: 1
-  color: {r: 0.990566, g: 0.9578586, b: 0.9391687, a: 0}
-  moveSpeed: 100
-  bulletFadeTime: 0.25
+  color: {r: 1, g: 0.68764, b: 0.3443396, a: 0}
+  smoothing: 20
+  bulletFadeTime: 1.06

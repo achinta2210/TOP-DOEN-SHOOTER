@@ -22,7 +22,6 @@ namespace TopDownShooter.InputHandler
             FireDownOnce = Input.GetButtonDown("Fire1");
             FireDown = Input.GetButton("Fire1");
             Reload = Input.GetButtonDown("Reload");
-            print(Reload);
         }
         
         void GetMousePos(){

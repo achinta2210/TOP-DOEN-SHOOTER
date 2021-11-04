@@ -6,7 +6,7 @@ namespace TopDownShooter.Combat{
     public class BulletDraw : MonoBehaviour {
         public float startingAlpha = 0.5f;
         public Color color;
-        public float moveSpeed = 10f;
+        public float smoothing = 10f;
         public float bulletFadeTime = 0.4f;
         LineRenderer line;
         float alpha = 1.0f;
@@ -20,9 +20,9 @@ namespace TopDownShooter.Combat{
         
         private void Update() {
             
-            alpha = Mathf.Clamp01(alpha -= (Time.deltaTime/bulletFadeTime) * startingAlpha);
+            alpha = Mathf.Lerp(alpha , 0.0f , Time.deltaTime * bulletFadeTime);
             SetAlpha(alpha);
-            line.SetPosition(0 , Vector3.MoveTowards(line.GetPosition(0) , line.GetPosition(1), moveSpeed * Time.deltaTime));
+            line.SetPosition(0 ,Vector3.Lerp(line.GetPosition(0) , line.GetPosition(1) , Time.deltaTime * smoothing));
             if (Vector3.Distance(line.GetPosition(0),line.GetPosition(1)) < 0.1f){
                 Destroy(gameObject);
             }

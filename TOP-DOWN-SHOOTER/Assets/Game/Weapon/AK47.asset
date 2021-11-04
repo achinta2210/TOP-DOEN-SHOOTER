@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingDamage: 15
   range: 7
-  fireRate: 0.1
+  fireRate: 0.13
   recoilAmmount: 3
   reloadTime: 2
   bulletDisplayTime: 0.7
@@ -22,4 +22,4 @@ MonoBehaviour:
   projectilePrefab: {fileID: 0}
   bulletLine: {fileID: 7084675534786382495, guid: 35151fdd8c808074180f39a2beed7618, type: 3}
   bullHitEffect: {fileID: 1545093180352275058, guid: 632bb46de98a4974d9671756fa4d96e8, type: 3}
-  projectileSpeed: 30
+  projectileSpeed: 45
